@@ -1,0 +1,85 @@
+.team {
+  background-color: $secondary-background-color;
+
+  .team__list {
+    display: flex;
+  }
+}
+
+.team__item {
+  border: 1px solid #eeeeee;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 1px 3px rgba(0, 0, 0, 0.12);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: $first-background-color;
+}
+.card__tittle {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: $tittle-text-color;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.card__text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.card__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+/************ Иконки соцсетей************ */
+.card__icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  fill: $icon-color;
+
+  transition: fill 250ms $timing-function;
+
+  .card__link:hover &,
+  .card__link:focus & {
+    fill: $first-background-color;
+  }
+}
+.card__item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.card__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: background-color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
