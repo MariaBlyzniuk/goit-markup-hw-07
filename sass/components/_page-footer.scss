@@ -42,10 +42,10 @@
   font-style: normal;
   letter-spacing: 0.03em;
 }
-.studio__address {
+.studio__links--addressColor {
   color: $first-background-color;
 }
-.studio__contacts {
+.studio__links--contactsColor {
   color: rgba(255, 255, 255, 0.6);
 
   &:hover,

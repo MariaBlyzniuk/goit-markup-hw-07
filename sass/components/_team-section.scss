@@ -1,7 +1,7 @@
-.team {
+.section--TeamBackground {
   background-color: $secondary-background-color;
 
-  .team__list {
+  .team {
     display: flex;
   }
 }
@@ -18,13 +18,13 @@
   }
 }
 
-.card {
+.team__thumb {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   background-color: $first-background-color;
 }
-.card__tittle {
+.team__title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -35,20 +35,20 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.card__text {
+.team__text {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.card__list {
+
+/************ Иконки соцсетей************ */
+.social {
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-
-/************ Иконки соцсетей************ */
-.card__icon {
+.social__icon {
   width: 20px;
   height: 20px;
   display: flex;
@@ -56,12 +56,12 @@
 
   transition: fill 250ms $timing-function;
 
-  .card__link:hover &,
-  .card__link:focus & {
+  .social__link:hover &,
+  .social__link:focus & {
     fill: $first-background-color;
   }
 }
-.card__item {
+.social__item {
   width: 44px;
   height: 44px;
 
@@ -69,7 +69,7 @@
     margin-right: 10px;
   }
 }
-.card__link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,18 +1,7 @@
-.work-section {
+.section--NoPaddingTop {
   padding-top: 0;
 }
-.section__tittle {
-  margin-top: 0;
-  margin-bottom: 50px;
 
-  color: $tittle-text-color;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .work {
   display: flex;
 }

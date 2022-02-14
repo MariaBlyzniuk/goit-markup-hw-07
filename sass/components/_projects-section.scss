@@ -57,11 +57,11 @@
   }
 }
 
-.thumb {
+.projects__thumb {
   position: relative;
   overflow: hidden;
 }
-.thumb__overlay {
+.projects__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,7 +77,7 @@
     transform: translateY(0);
   }
 }
-.thumb__text {
+.projects__overlay-text {
   position: absolute;
 
   font-size: 18px;
@@ -93,7 +93,7 @@
   border: 1px solid #eeeeee;
 }
 
-.projects__tittle {
+.projects__title {
   margin-top: 0px;
   margin-bottom: 4px;
 
